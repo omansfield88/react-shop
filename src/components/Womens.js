@@ -162,10 +162,13 @@ class Womens extends Component {
       <main className="product-page">
         <Header />
         <h2>Women's</h2>
-        <button onClick={this.removeFilters} className="filter-button">All</button>
-        <button onClick={this.filterShoes} className="filter-button">Shoes</button>
-        <button onClick={this.filterCoat} className="filter-button">Coats</button>
-        <button onClick={this.filterDresses} className="filter-button">Dresses</button>
+
+        <div className="filters">
+          <button onClick={this.removeFilters} className="filter-button">All</button>
+          <button onClick={this.filterShoes} className="filter-button">Shoes</button>
+          <button onClick={this.filterCoat} className="filter-button">Coats</button>
+          <button onClick={this.filterDresses} className="filter-button">Dresses</button>
+        </div>
         <ul className="list-of-products">
           {listOfProducts}
         </ul>
