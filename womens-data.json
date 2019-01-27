@@ -1,0 +1,64 @@
+{
+  type: "shoes",
+  name: "Thea",
+  price: "100",
+  imgThumb: "/images/womens/shoes-thea-thumb.jpg",
+  imgDetail: "/images/womens/shoes-thea-detail.jpg",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+},
+{
+  type: "shoes",
+  name: "Asla",
+  price: "150",
+  imgThumb: "/images/womens/shoes-asla-thumb.jpg",
+  imgDetail: "/images/womens/shoes-asla-detail.jpg",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+},
+{
+  type: "shoes",
+  name: "Clara",
+  price: "60",
+  imgThumb: "/images/womens/shoes-clara-thumb.jpg",
+  imgDetail: "/images/womens/shoes-clara-detail.jpg",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+},
+{
+  type: "shoes",
+  name: "Adrianna",
+  price: "120",
+  imgThumb: "/images/womens/shoes-adrianna-thumb.jpg",
+  imgDetail: "/images/womens/shoes-adrianna-detail.jpg",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+},
+{
+  type: "coat",
+  name: "Aleida",
+  price: "120",
+  imgThumb: "/images/womens/coat-aleida-thumb.jpg",
+  imgDetail: "/images/womens/coat-aleida-detail.jpg",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+},
+{
+  type: "coat",
+  name: "Amice",
+  price: "50",
+  imgThumb: "/images/womens/coat-amice-thumb.jpg",
+  imgDetail: "/images/womens/coat-amice-detail.jpg",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+},
+{
+  type: "coat",
+  name: "Hay",
+  price: "60",
+  imgThumb: "/images/womens/coat-hay-thumb.jpg",
+  imgDetail: "/images/womens/coat-hay-detail.jpg",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+},
+{
+  type: "coat",
+  name: "Nala",
+  price: "200",
+  imgThumb: "/images/womens/coat-nala-thumb.jpg",
+  imgDetail: "/images/womens/coat-nala-detail.jpg",
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+}

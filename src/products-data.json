@@ -1,0 +1,40 @@
+{
+  "products" : {
+      "Adrianna" : {
+        "gender" : "womens",
+        "type" : "shoes",
+        "name" : "Adrianna",
+        "price" : 200,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/womens/shoes-adrianna-thumb.jpg",
+        "imgDetail" : "/images/womens/shoes-adrianna-detail.jpg"
+      },
+      "Thea" : {
+        "gender" : "womens",
+        "type" : "shoes",
+        "name" : "Thea",
+        "price" : 250,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/womens/shoes-thea-thumb.jpg",
+        "imgDetail" : "/images/womens/shoes-thea-detail.jpg"
+      },
+      "Clara" : {
+        "gender" : "womens",
+        "type" : "shoes",
+        "name" : "Clara",
+        "price" : 100,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/womens/shoes-clara-thumb.jpg",
+        "imgDetail" : "/images/womens/shoes-clara-detail.jpg"
+      },
+      "Asla" : {
+        "gender" : "womens",
+        "type" : "shoes",
+        "name" : "Asla",
+        "price" : 100,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/womens/shoes-asla-thumb.jpg",
+        "imgDetail" : "/images/womens/shoes-asla-detail.jpg"
+      }
+    }
+}

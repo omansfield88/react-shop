@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
+
+.App {
+  // text-align: center;
+  @media screen and (min-width: 700px) {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+header{
+  // background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 10px;
+
+  @media screen and (min-width: 700px) {
+    flex-direction: row;
+    margin: 0 auto;
+  }
+
+  h1{
+    margin: 0;
+    font-size: 40px;
+
+  }
+
+
+  a{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+
+    &:visited{
+      color: #000;
+    }
+  }
+
+  nav{
+    margin: 20px 0 0 0;
+    font-size: 20px;
+
+    @media screen and (min-width: 700px) {
+      margin: 0;
+    }
+
+    a{
+      margin: 0 20px;
+
+      @media screen and (min-width: 700px) {
+        margin: 0 0 0 50px;
+      }
+    }
+  }
+
+}
+
+.home-page{
+  .home-links{
+    margin: 0 auto;
+
+    @media screen and (min-width: 700px) {
+      display: flex;
+    }
+  }
+  .home-link{
+    text-decoration: none;
+    height: 150px;
+    display: block;
+    background-size: cover;
+
+    @media screen and (min-width: 700px) {
+      width: 50%;
+      height: 700px;
+    }
+
+    p{
+      color: #fff;
+      font-family: 'Libre Baskerville', serif;
+      font-size: 30px;
+      font-style: italic;
+      text-align: center;
+      padding: 100px 0;
+      margin: 0;
+    }
+
+    &--mens{
+      background-image: url(/images/home-man.jpg);
+    }
+
+    &--womens{
+      background-image: url(/images/home-woman.jpg);
+    }
+
+    div{
+      height: 150px;
+
+      @media screen and (min-width: 700px) {
+        height: 700px;
+
+      }
+    }
+
+  }
+}
+
+
+
+.womens-page{
+
+}
+
+.list-of-products{
+  list-style: none;
+  padding: 0;
+
+
+  @media screen and (min-width: 700px) {
+
+  }
+
+  li{
+    margin: 0 0 50px 0;
+    cursor: pointer;
+
+    @media screen and (min-width: 700px) {
+        display: inline-block;
+        width: 25%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    img{
+      width: 100%;
+    }
+  }
+
+  &__name{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 0 0 0;
+  }
+
+  &__price{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+  }
+
+}
+
+.popup{
+  // background-color: red;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  max-height: 500px;
+  width: 100%;
+
+  @media screen and (min-width: 700px) {
+    top: 50px;
+  }
+
+
+  &__inner{
+    background-color: #ccc;
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+    max-width: 1000px;
+    -webkit-box-shadow: 0px 5px 31px 5px rgba(0,0,0,0.38);
+    -moz-box-shadow: 0px 5px 31px 5px rgba(0,0,0,0.38);
+    box-shadow: 0px 5px 31px 5px rgba(0,0,0,0.38);
+
+    @media screen and (min-width: 700px) {
+      max-width: 1000px;
+      display: flex;
+      align-items: flex-start;
+      width: 70%;
+    }
+  }
+
+  img{
+    width: 100%;
+    height: 100%;
+    display: block;
+
+    @media screen and (min-width: 700px) {
+      width: 60%;
+    }
+  }
+
+  &__text{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    text-align: left;
+
+    @media screen and (min-width: 700px) {
+      width: 40%;
+      padding: 40px;
+    }
+  }
+
+  &__close{
+    font-style: italic;
+    text-decoration: underline;
+    text-align :right;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  &__name{
+    font-size: 50px;
+    margin: 0;
+  }
+
+  &__price{
+    margin: 0;
+    @media screen and (min-width: 700px) {
+      margin: 20px 0;
+    }
+  }
+
+  &__desc{
+    font-size: 15px;
+  }
+}
