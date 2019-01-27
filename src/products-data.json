@@ -1,5 +1,14 @@
 {
   "products" : {
+      "Denver" : {
+        "gender" : "mens",
+        "type" : "coat",
+        "name" : "Denver",
+        "price" : 200,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/mens/coat-denver-thumb.jpg",
+        "imgDetail" : "/images/mens/coat-denver-detail.jpg"
+      },
       "Adrianna" : {
         "gender" : "womens",
         "type" : "shoes",
@@ -35,6 +44,42 @@
         "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "imgThumb" : "/images/womens/shoes-asla-thumb.jpg",
         "imgDetail" : "/images/womens/shoes-asla-detail.jpg"
+      },
+      "Aleida" : {
+        "gender" : "womens",
+        "type" : "coat",
+        "name" : "Aleida",
+        "price" : 400,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/womens/coat-aleida-thumb.jpg",
+        "imgDetail" : "/images/womens/coat-aleida-detail.jpg"
+      },
+      "Amice" : {
+        "gender" : "womens",
+        "type" : "coat",
+        "name" : "Amice",
+        "price" : 200,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/womens/coat-amice-thumb.jpg",
+        "imgDetail" : "/images/womens/coat-amice-detail.jpg"
+      },
+      "Hay" : {
+        "gender" : "womens",
+        "type" : "coat",
+        "name" : "Hay",
+        "price" : 80,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/womens/coat-hay-thumb.jpg",
+        "imgDetail" : "/images/womens/coat-hay-detail.jpg"
+      },
+      "Nala" : {
+        "gender" : "womens",
+        "type" : "coat",
+        "name" : "Nala",
+        "price" : 100,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/womens/coat-nala-thumb.jpg",
+        "imgDetail" : "/images/womens/coat-nala-detail.jpg"
       }
     }
 }

@@ -51,15 +51,31 @@ class Womens extends Component {
 
 
   filterShoes = () => {
-    let filtered = this.state.products.filter(product => product.type === 'shoes')
+    let filtered = this.state.allProducts.filter(product => product.type === 'shoes')
     this.setState({
       displayedProducts: filtered
     })
   }
 
+  filterCoat = () => {
+    let filtered = this.state.allProducts.filter(product => product.type === 'coat')
+    this.setState({
+      displayedProducts: filtered
+    })
+  }
+
+  // filterProduct = (type) => {
+  //   let filtered = this.state.displayedProducts.filter(product => product.type === type)
+  //   this.setState({
+  //     displayedProducts: filtered
+  //   })
+  // }
+
+
+
   removeFilters = () => {
     this.setState({
-      displayedProducts: this.state.products
+      displayedProducts: this.state.allProducts
     })
   }
 
@@ -67,11 +83,6 @@ class Womens extends Component {
 
 
   componentDidMount(){
-
-    this.setState({
-      displayedProducts: this.state.allProducts
-    })
-
 
     const productsDataRef = firebase.database().ref().child('products');
 
@@ -95,11 +106,14 @@ class Womens extends Component {
         })
       }
 
+      //Return only womens products
+      newState = newState.filter(product => product.gender === 'womens')
+
       this.setState({
-        allProducts: newState
+        allProducts: newState,
+        displayedProducts: newState
       })
     })
-
 
   }
 
@@ -112,7 +126,7 @@ class Womens extends Component {
 
     //Map over current list of products in state and produce a Product component with the data passed in as props
     //TO DO make key unique
-    let listOfProducts = this.state.allProducts.map((product) =>
+    let listOfProducts = this.state.displayedProducts.map((product) =>
         <Product
           key={product}
           imgThumb={product.imgThumb}
@@ -139,10 +153,12 @@ class Womens extends Component {
     }
 
     return (
-      <main className="womens-page">
+      <main className="product-page">
         <Header />
+        <h2>Womens</h2>
 
         <button onClick={this.filterShoes}>Filter Shoes</button>
+        <button onClick={this.filterCoat}>Filter Coats</button>
         <button onClick={this.removeFilters}>Remove</button>
         <ul className="list-of-products">
           {listOfProducts}
