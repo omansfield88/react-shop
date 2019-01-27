@@ -18,8 +18,6 @@ class Womens extends Component {
 
 
 
-
-
   //This recieved data from Product.js
   showPopup = (name, price, imgThumb, imgDetail, description) => {
     this.setState({
@@ -64,6 +62,14 @@ class Womens extends Component {
     })
   }
 
+  filterDresses = () => {
+    let filtered = this.state.allProducts.filter(product => product.type === 'dresses')
+    this.setState({
+      displayedProducts: filtered
+    })
+  }
+
+  //To Do, make a reusable filter
   // filterProduct = (type) => {
   //   let filtered = this.state.displayedProducts.filter(product => product.type === type)
   //   this.setState({
@@ -155,11 +161,11 @@ class Womens extends Component {
     return (
       <main className="product-page">
         <Header />
-        <h2>Womens</h2>
-
-        <button onClick={this.filterShoes}>Filter Shoes</button>
-        <button onClick={this.filterCoat}>Filter Coats</button>
-        <button onClick={this.removeFilters}>Remove</button>
+        <h2>Women's</h2>
+        <button onClick={this.removeFilters} className="filter-button">All</button>
+        <button onClick={this.filterShoes} className="filter-button">Shoes</button>
+        <button onClick={this.filterCoat} className="filter-button">Coats</button>
+        <button onClick={this.filterDresses} className="filter-button">Dresses</button>
         <ul className="list-of-products">
           {listOfProducts}
         </ul>

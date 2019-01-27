@@ -100,7 +100,6 @@ header{
 
       @media screen and (min-width: 700px) {
         height: 700px;
-
       }
     }
 
@@ -110,7 +109,27 @@ header{
 
 
 .product-page{
+  h2{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+  }
 
+  .filter-button{
+    background: none;
+    border: none;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    font-style: italic;
+    margin: 0 20px;
+    cursor: pointer;
+    text-align: center;
+
+    @media screen and (min-width: 700px) {
+      text-align: left;
+    }
+
+  }
 }
 
 .list-of-products{
@@ -155,12 +174,12 @@ header{
 }
 
 .popup{
-  // background-color: red;
-  position: absolute;
+  position: fixed;
   top: 20px;
   left: 0;
   max-height: 500px;
   width: 100%;
+  background-color: #fff;
 
   @media screen and (min-width: 700px) {
     top: 50px;
@@ -168,7 +187,8 @@ header{
 
 
   &__inner{
-    background-color: #ccc;
+    background-color: #fff;
+    position: relative;
     margin: 0 auto;
     height: 100%;
     width: 90%;
@@ -180,7 +200,7 @@ header{
     @media screen and (min-width: 700px) {
       max-width: 1000px;
       display: flex;
-      align-items: flex-start;
+      align-items: flex-end;
       width: 70%;
     }
   }
@@ -210,26 +230,51 @@ header{
   }
 
   &__close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
     font-style: italic;
     text-decoration: underline;
     text-align :right;
     font-size: 20px;
     cursor: pointer;
+
+    @media screen and (min-width: 700px) {
+      top: 40px;
+      right: 40px;
+    }
   }
 
   &__name{
-    font-size: 50px;
+    font-size: 30px;
     margin: 0;
+
+    @media screen and (min-width: 700px) {
+      font-size: 50px;
+    }
+
   }
 
   &__price{
     margin: 0;
+    font-size: 20px;
+    font-style: italic;
+
     @media screen and (min-width: 700px) {
-      margin: 20px 0;
+      font-size: 30px;
     }
   }
 
   &__desc{
-    font-size: 15px;
+    font-size: 12px;
+
+    @media screen and (min-width: 700px) {
+      font-size: 15px;
+    }
+  }
+
+  &__add{
+    text-decoration: underline;
+    font-size: 20px;
   }
 }

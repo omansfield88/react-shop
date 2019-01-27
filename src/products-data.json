@@ -9,6 +9,105 @@
         "imgThumb" : "/images/mens/coat-denver-thumb.jpg",
         "imgDetail" : "/images/mens/coat-denver-detail.jpg"
       },
+      "Barton" : {
+        "gender" : "mens",
+        "type" : "coat",
+        "name" : "Barton",
+        "price" : 300,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/mens/coat-barton-thumb.jpg",
+        "imgDetail" : "/images/mens/coat-barton-detail.jpg"
+      },
+      "Merton" : {
+        "gender" : "mens",
+        "type" : "coat",
+        "name" : "Merton",
+        "price" : 500,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/mens/coat-merton-thumb.jpg",
+        "imgDetail" : "/images/mens/coat-merton-detail.jpg"
+      },
+      "Okuno" : {
+        "gender" : "mens",
+        "type" : "coat",
+        "name" : "Okuno",
+        "price" : 150,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/mens/coat-okuno-thumb.jpg",
+        "imgDetail" : "/images/mens/coat-okuno-detail.jpg"
+      },
+      "Bethel" : {
+        "gender" : "mens",
+        "type" : "shirt",
+        "name" : "Bethel",
+        "price" : 99,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/mens/shirt-bethel-thumb.jpg",
+        "imgDetail" : "/images/mens/shirt-bethel-detail.jpg"
+      },
+      "Chokai" : {
+        "gender" : "mens",
+        "type" : "shirt",
+        "name" : "Chokai",
+        "price" : 99,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/mens/shirt-chokai-thumb.jpg",
+        "imgDetail" : "/images/mens/shirt-chokai-detail.jpg"
+      },
+      "Fassett" : {
+        "gender" : "mens",
+        "type" : "shirt",
+        "name" : "Fassett",
+        "price" : 59,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/mens/shirt-fassett-thumb.jpg",
+        "imgDetail" : "/images/mens/shirt-fassett-detail.jpg"
+      },
+      "Fuller" : {
+        "gender" : "mens",
+        "type" : "shirt",
+        "name" : "Fuller",
+        "price" : 49,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/mens/shirt-fuller-thumb.jpg",
+        "imgDetail" : "/images/mens/shirt-fuller-detail.jpg"
+      },
+      "Aalto" : {
+        "gender" : "mens",
+        "type" : "shoes",
+        "name" : "Aalto",
+        "price" : 29,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/mens/shoes-aalto-thumb.jpg",
+        "imgDetail" : "/images/mens/shoes-aalto-detail.jpg"
+      },
+      "Lodge" : {
+        "gender" : "mens",
+        "type" : "shoes",
+        "name" : "Lodge",
+        "price" : 99,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/mens/shoes-lodge-thumb.jpg",
+        "imgDetail" : "/images/mens/shoes-lodge-detail.jpg"
+      },
+      "Perch" : {
+        "gender" : "mens",
+        "type" : "shoes",
+        "name" : "Perch",
+        "price" : 150,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/mens/shoes-perch-thumb.jpg",
+        "imgDetail" : "/images/mens/shoes-perch-detail.jpg"
+      },
+      "Tilt" : {
+        "gender" : "mens",
+        "type" : "shoes",
+        "name" : "Tilt",
+        "price" : 25,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/mens/shoes-tilt-thumb.jpg",
+        "imgDetail" : "/images/mens/shoes-tilt-detail.jpg"
+      },
       "Adrianna" : {
         "gender" : "womens",
         "type" : "shoes",
@@ -80,6 +179,42 @@
         "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "imgThumb" : "/images/womens/coat-nala-thumb.jpg",
         "imgDetail" : "/images/womens/coat-nala-detail.jpg"
+      },
+      "Wrenley" : {
+        "gender" : "womens",
+        "type" : "coat",
+        "name" : "Wrenley",
+        "price" : 400,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/womens/coat-wrenley-thumb.jpg",
+        "imgDetail" : "/images/womens/coat-wrenley-detail.jpg"
+      },
+      "Eley" : {
+        "gender" : "womens",
+        "type" : "dresses",
+        "name" : "Eley",
+        "price" : 150,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/womens/dresses-eley-thumb.jpg",
+        "imgDetail" : "/images/womens/dresses-eley-detail.jpg"
+      },
+      "Gracie" : {
+        "gender" : "womens",
+        "type" : "dresses",
+        "name" : "Gracie",
+        "price" : 250,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/womens/dresses-gracie-thumb.jpg",
+        "imgDetail" : "/images/womens/dresses-gracie-detail.jpg"
+      },
+      "Harlow" : {
+        "gender" : "womens",
+        "type" : "dresses",
+        "name" : "Harlow",
+        "price" : 155,
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imgThumb" : "/images/womens/dresses-harlow-thumb.jpg",
+        "imgDetail" : "/images/womens/dresses-harlow-detail.jpg"
       }
     }
 }
